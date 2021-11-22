@@ -1,0 +1,156 @@
+
+section.qualificacao h2{
+    color:rgba(27, 141, 170, 0.87) ;
+    font-size: 30px;
+    padding: 20px 0;
+    text-align: center;
+
+}
+            .time-line {
+                display: flex;
+                margin: 20px 1PX;
+                padding-left: 10PX ;
+                flex-wrap: wrap;
+                align-items: flex-start;
+                
+            }
+                .timeline__event {
+                  margin-bottom: 20px;
+                  display: flex;
+                  margin: 20px 10px;
+                  border-radius: 6px;
+                  align-self: flex-start;
+                  width: 30%;
+                  height: 20%;
+                 
+                }
+          
+                    .timeline__event__date {
+                      border-radius: 0 6px 6px 0;
+                    }
+                    .timeline__event__content {
+                      border-radius: 6px 0 0 6px;
+                    }
+              
+              
+                  .timeline__event__title {
+                    font-size: 1.2rem;
+                    line-height: 1.4;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    color: #9251ac;
+                    letter-spacing: 1.5px;
+                  }
+                  .timeline__event__content{
+                    padding: 10px;
+                    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+                      0 18px 36px -18px rgba(0, 0, 0, 0.3),
+                      0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+                    background: #fff;
+                    border-radius: 0 6px 6px 0;
+                    transition: 2s;
+
+                  }
+
+
+                  .timeline__event__date {
+                    font-size: 1.5rem;
+                    font-weight: 100;
+                    border-radius: 6px 0 0 6px;
+                    height: 120px;
+                  }
+
+             
+                   
+                  
+                    .timeline__event__icon i {
+                      text-align: start;
+                    }
+              
+                  
+                  .timeline__event__description {
+                    flex-basis: 20%;
+                  }
+              
+                 
+                    .timeline__event__date {
+                      color: #87bbfe;
+                      background: #555ac0;
+                    }
+
+                    .timeline__event__title {
+                      color: #555ac0;
+                    }
+                   
+              
+              @media (max-width: 786px) {
+                .timeline__event {
+                  flex-direction: column;
+                  align-self: center;
+                    margin-bottom: 20px;
+                    display: flex;
+                    margin: 20px 0;
+                    border-radius: 6px;
+                    align-self: center;
+                    width: 100%;
+                    height: 40%;
+                   
+                  }
+                }
+                  .timeline__event__content {
+                    width: 100%;
+                  }
+              
+                  .timeline__event__icon {
+                    border-radius: 40px 40px 0 0;
+                    width: 100%;
+                    margin: 0;
+                    box-shadow: none;
+                  }
+                  
+                  
+                  .timeline__event__date {
+                    border-radius: 0;
+                    padding: 20px;
+                  }
+              
+
+                    .timeline__event__date {
+                      border-radius: 0;
+                      padding: 10px;
+                      font-size: 1.5rem;
+                      font-weight: 100;
+                      border-radius: 6px 0 0 6px;
+                      height: 60px;
+                    }
+              
+                    .timeline__event__icon {
+                      border-radius: 40px 40px 0 0;
+                      margin: 0;
+                    }
+
+              
+              @keyframes fillLeft {
+                100% {
+                  right: 100%;
+                }
+              }
+              
+              @keyframes fillTop {
+                100% {
+                  top: 100%;
+                }
+              }
+              
+              @keyframes fillLeftOdd {
+                100% {
+                  left: 100%;
+                }
+              }
+           
+
+
+
+
+
+

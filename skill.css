@@ -1,0 +1,63 @@
+.skills{
+    align-items: stretch;
+    background-color: rgba(128, 128, 128, 0.178);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.skill h2{
+    text-align: center;
+}
+
+.skill-1{
+    width: 30%;
+    border: 3px solid rgba(27, 141, 170, 0.87) ;
+    margin: 10px;
+}
+.bean-skills { 
+  width: 90%;
+  margin: 20px ;
+  padding:0;
+
+	}
+
+.bean-skills p { 
+	margin-bottom: 0px; 
+	}
+
+ul.bean-skillset {
+	float: left;
+	width: 100%;
+	}
+
+.skill-percent { 
+	float: right; 
+	}
+
+li.skill-bar {
+    background-color: rgba(27, 141, 170, 0.87);
+	color: #FFF;
+	font: bold 12px/23px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	margin-bottom: 3px;
+	padding: 1px 8px;
+	width: 300px;	
+	-webkit-border-radius: 80px;
+	   -moz-border-radius: 80px;
+	        border-radius: 80px;
+            box-shadow: 8px 5px rgba(223, 218, 223, 0.815);
+       
+	}
+
+    @media screen and (max-width: 768px){
+        .skill-1{
+            width: 100%;
+       
+        }
+
+
+
+    }
